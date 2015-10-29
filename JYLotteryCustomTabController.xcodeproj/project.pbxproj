@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6211FA1F1BE22BAB000E2E65 /* JYBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211FA1E1BE22BAB000E2E65 /* JYBaseTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6211FA221BE22D71000E2E65 /* JYSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211FA211BE22D71000E2E65 /* JYSection.m */; settings = {ASSET_TAGS = (); }; };
+		6211FA251BE22E49000E2E65 /* JYConfigTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211FA241BE22E49000E2E65 /* JYConfigTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		6211FA281BE22F9B000E2E65 /* JYSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211FA271BE22F9B000E2E65 /* JYSettingModel.m */; settings = {ASSET_TAGS = (); }; };
+		6211FA2B1BE2326F000E2E65 /* JYConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211FA2A1BE2326F000E2E65 /* JYConfigViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62930B9E1BE0FCA900E2AC66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930B9D1BE0FCA900E2AC66 /* main.m */; };
+		62930BA71BE0FCA900E2AC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62930BA51BE0FCA900E2AC66 /* Main.storyboard */; };
+		62930BA91BE0FCA900E2AC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62930BA81BE0FCA900E2AC66 /* Assets.xcassets */; };
+		62930BAC1BE0FCA900E2AC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62930BAA1BE0FCA900E2AC66 /* LaunchScreen.storyboard */; };
+		62930BB71BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BB61BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.m */; };
+		62930BC21BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BC11BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.m */; };
+		62930BE91BE0FF2800E2AC66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BE61BE0FF2800E2AC66 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		62930BEC1BE0FF7900E2AC66 /* JYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BEB1BE0FF7900E2AC66 /* JYTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		62930BEF1BE0FF8E00E2AC66 /* JYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BEE1BE0FF8E00E2AC66 /* JYNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		62930BF21BE0FFAE00E2AC66 /* JYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BF11BE0FFAE00E2AC66 /* JYMineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62930BF51BE0FFC400E2AC66 /* JYHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BF41BE0FFC400E2AC66 /* JYHallViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62930BF81BE0FFD500E2AC66 /* JYDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BF71BE0FFD500E2AC66 /* JYDiscoveryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62930BFB1BE0FFEA00E2AC66 /* JYBattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BFA1BE0FFEA00E2AC66 /* JYBattleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62930BFE1BE0FFFE00E2AC66 /* JYAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930BFD1BE0FFFE00E2AC66 /* JYAwardViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62930C011BE10F2E00E2AC66 /* JYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C001BE10F2E00E2AC66 /* JYTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		62930C041BE111F000E2AC66 /* JYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C031BE111F000E2AC66 /* JYTabBarButton.m */; settings = {ASSET_TAGS = (); }; };
+		62930C211BE1A46C00E2AC66 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C081BE1A46C00E2AC66 /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		62930C221BE1A46C00E2AC66 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C0B1BE1A46C00E2AC66 /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		62930C231BE1A46C00E2AC66 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C0D1BE1A46C00E2AC66 /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		62930C241BE1A46C00E2AC66 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C0F1BE1A46C00E2AC66 /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		62930C251BE1A46C00E2AC66 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C131BE1A46C00E2AC66 /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		62930C261BE1A46C00E2AC66 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C151BE1A46C00E2AC66 /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		62930C271BE1A46C00E2AC66 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C171BE1A46C00E2AC66 /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		62930C281BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C1A1BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		62930C291BE1A46C00E2AC66 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C1C1BE1A46C00E2AC66 /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		62930C2A1BE1A46C00E2AC66 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62930C1F1BE1A46C00E2AC66 /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62930BB31BE0FCA900E2AC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62930B911BE0FCA900E2AC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62930B981BE0FCA900E2AC66;
+			remoteInfo = JYLotteryCustomTabController;
+		};
+		62930BBE1BE0FCA900E2AC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62930B911BE0FCA900E2AC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62930B981BE0FCA900E2AC66;
+			remoteInfo = JYLotteryCustomTabController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6211FA1D1BE22BAB000E2E65 /* JYBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseTableViewController.h; sourceTree = "<group>"; };
+		6211FA1E1BE22BAB000E2E65 /* JYBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseTableViewController.m; sourceTree = "<group>"; };
+		6211FA201BE22D71000E2E65 /* JYSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSection.h; sourceTree = "<group>"; };
+		6211FA211BE22D71000E2E65 /* JYSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSection.m; sourceTree = "<group>"; };
+		6211FA231BE22E49000E2E65 /* JYConfigTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYConfigTableViewCell.h; path = JYLotteryCustomTabController/Class/Mine/View/JYConfigTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		6211FA241BE22E49000E2E65 /* JYConfigTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYConfigTableViewCell.m; path = JYLotteryCustomTabController/Class/Mine/View/JYConfigTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		6211FA261BE22F9B000E2E65 /* JYSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSettingModel.h; sourceTree = "<group>"; };
+		6211FA271BE22F9B000E2E65 /* JYSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSettingModel.m; sourceTree = "<group>"; };
+		6211FA291BE2326F000E2E65 /* JYConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYConfigViewController.h; sourceTree = "<group>"; };
+		6211FA2A1BE2326F000E2E65 /* JYConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYConfigViewController.m; sourceTree = "<group>"; };
+		62930B991BE0FCA900E2AC66 /* JYLotteryCustomTabController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYLotteryCustomTabController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62930B9D1BE0FCA900E2AC66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62930BA61BE0FCA900E2AC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62930BA81BE0FCA900E2AC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62930BAB1BE0FCA900E2AC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62930BAD1BE0FCA900E2AC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62930BB21BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYLotteryCustomTabControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62930BB61BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYLotteryCustomTabControllerTests.m; sourceTree = "<group>"; };
+		62930BB81BE0FCA900E2AC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62930BBD1BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYLotteryCustomTabControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62930BC11BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYLotteryCustomTabControllerUITests.m; sourceTree = "<group>"; };
+		62930BC31BE0FCA900E2AC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62930BE51BE0FF2800E2AC66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62930BE61BE0FF2800E2AC66 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62930BEA1BE0FF7900E2AC66 /* JYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabBarController.h; sourceTree = "<group>"; };
+		62930BEB1BE0FF7900E2AC66 /* JYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabBarController.m; sourceTree = "<group>"; };
+		62930BED1BE0FF8E00E2AC66 /* JYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYNavigationController.h; sourceTree = "<group>"; };
+		62930BEE1BE0FF8E00E2AC66 /* JYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYNavigationController.m; sourceTree = "<group>"; };
+		62930BF01BE0FFAE00E2AC66 /* JYMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYMineViewController.h; path = JYLotteryCustomTabController/Class/Mine/Controller/JYMineViewController.h; sourceTree = SOURCE_ROOT; };
+		62930BF11BE0FFAE00E2AC66 /* JYMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYMineViewController.m; path = JYLotteryCustomTabController/Class/Mine/Controller/JYMineViewController.m; sourceTree = SOURCE_ROOT; };
+		62930BF31BE0FFC400E2AC66 /* JYHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYHallViewController.h; sourceTree = "<group>"; };
+		62930BF41BE0FFC400E2AC66 /* JYHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYHallViewController.m; sourceTree = "<group>"; };
+		62930BF61BE0FFD500E2AC66 /* JYDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDiscoveryViewController.h; sourceTree = "<group>"; };
+		62930BF71BE0FFD500E2AC66 /* JYDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDiscoveryViewController.m; sourceTree = "<group>"; };
+		62930BF91BE0FFEA00E2AC66 /* JYBattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBattleViewController.h; sourceTree = "<group>"; };
+		62930BFA1BE0FFEA00E2AC66 /* JYBattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBattleViewController.m; sourceTree = "<group>"; };
+		62930BFC1BE0FFFE00E2AC66 /* JYAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAwardViewController.h; sourceTree = "<group>"; };
+		62930BFD1BE0FFFE00E2AC66 /* JYAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAwardViewController.m; sourceTree = "<group>"; };
+		62930BFF1BE10F2E00E2AC66 /* JYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYTabBar.h; path = JYLotteryCustomTabController/Class/Other/View/JYTabBar.h; sourceTree = SOURCE_ROOT; };
+		62930C001BE10F2E00E2AC66 /* JYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYTabBar.m; path = JYLotteryCustomTabController/Class/Other/View/JYTabBar.m; sourceTree = SOURCE_ROOT; };
+		62930C021BE111F000E2AC66 /* JYTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabBarButton.h; sourceTree = "<group>"; };
+		62930C031BE111F000E2AC66 /* JYTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabBarButton.m; sourceTree = "<group>"; };
+		62930C071BE1A46C00E2AC66 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		62930C081BE1A46C00E2AC66 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		62930C091BE1A46C00E2AC66 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		62930C0A1BE1A46C00E2AC66 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		62930C0B1BE1A46C00E2AC66 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		62930C0C1BE1A46C00E2AC66 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		62930C0D1BE1A46C00E2AC66 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		62930C0E1BE1A46C00E2AC66 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		62930C0F1BE1A46C00E2AC66 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		62930C101BE1A46C00E2AC66 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		62930C111BE1A46C00E2AC66 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		62930C121BE1A46C00E2AC66 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		62930C131BE1A46C00E2AC66 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		62930C141BE1A46C00E2AC66 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		62930C151BE1A46C00E2AC66 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		62930C161BE1A46C00E2AC66 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		62930C171BE1A46C00E2AC66 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		62930C181BE1A46C00E2AC66 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		62930C191BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		62930C1A1BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		62930C1B1BE1A46C00E2AC66 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		62930C1C1BE1A46C00E2AC66 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		62930C1D1BE1A46C00E2AC66 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		62930C1E1BE1A46C00E2AC66 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		62930C1F1BE1A46C00E2AC66 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62930B961BE0FCA900E2AC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62930BAF1BE0FCA900E2AC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62930BBA1BE0FCA900E2AC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62930B901BE0FCA900E2AC66 = {
+			isa = PBXGroup;
+			children = (
+				62930B9B1BE0FCA900E2AC66 /* JYLotteryCustomTabController */,
+				62930BB51BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests */,
+				62930BC01BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests */,
+				62930B9A1BE0FCA900E2AC66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62930B9A1BE0FCA900E2AC66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62930B991BE0FCA900E2AC66 /* JYLotteryCustomTabController.app */,
+				62930BB21BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.xctest */,
+				62930BBD1BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62930B9B1BE0FCA900E2AC66 /* JYLotteryCustomTabController */ = {
+			isa = PBXGroup;
+			children = (
+				62930BCF1BE0FF2800E2AC66 /* Award */,
+				62930BD31BE0FF2800E2AC66 /* Battle */,
+				62930BD71BE0FF2800E2AC66 /* Discovery */,
+				62930BDB1BE0FF2800E2AC66 /* Hall */,
+				62930BDF1BE0FF2800E2AC66 /* Mine */,
+				62930BE31BE0FF2800E2AC66 /* Other */,
+				62930BA51BE0FCA900E2AC66 /* Main.storyboard */,
+				62930BA81BE0FCA900E2AC66 /* Assets.xcassets */,
+				62930B9C1BE0FCA900E2AC66 /* Supporting Files */,
+			);
+			path = JYLotteryCustomTabController;
+			sourceTree = "<group>";
+		};
+		62930B9C1BE0FCA900E2AC66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62930C051BE1A46C00E2AC66 /* Masonry */,
+				62930BAA1BE0FCA900E2AC66 /* LaunchScreen.storyboard */,
+				62930BAD1BE0FCA900E2AC66 /* Info.plist */,
+				62930B9D1BE0FCA900E2AC66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62930BB51BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				62930BB61BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.m */,
+				62930BB81BE0FCA900E2AC66 /* Info.plist */,
+			);
+			path = JYLotteryCustomTabControllerTests;
+			sourceTree = "<group>";
+		};
+		62930BC01BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62930BC11BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.m */,
+				62930BC31BE0FCA900E2AC66 /* Info.plist */,
+			);
+			path = JYLotteryCustomTabControllerUITests;
+			sourceTree = "<group>";
+		};
+		62930BCF1BE0FF2800E2AC66 /* Award */ = {
+			isa = PBXGroup;
+			children = (
+				62930BD01BE0FF2800E2AC66 /* Controller */,
+				62930BD11BE0FF2800E2AC66 /* Model */,
+				62930BD21BE0FF2800E2AC66 /* View */,
+			);
+			name = Award;
+			path = Class/Award;
+			sourceTree = "<group>";
+		};
+		62930BD01BE0FF2800E2AC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62930BFC1BE0FFFE00E2AC66 /* JYAwardViewController.h */,
+				62930BFD1BE0FFFE00E2AC66 /* JYAwardViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62930BD11BE0FF2800E2AC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62930BD21BE0FF2800E2AC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62930BD31BE0FF2800E2AC66 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				62930BD41BE0FF2800E2AC66 /* Controller */,
+				62930BD51BE0FF2800E2AC66 /* Model */,
+				62930BD61BE0FF2800E2AC66 /* View */,
+			);
+			name = Battle;
+			path = Class/Battle;
+			sourceTree = "<group>";
+		};
+		62930BD41BE0FF2800E2AC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62930BF91BE0FFEA00E2AC66 /* JYBattleViewController.h */,
+				62930BFA1BE0FFEA00E2AC66 /* JYBattleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62930BD51BE0FF2800E2AC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62930BD61BE0FF2800E2AC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62930BD71BE0FF2800E2AC66 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				62930BD81BE0FF2800E2AC66 /* Controller */,
+				62930BD91BE0FF2800E2AC66 /* Model */,
+				62930BDA1BE0FF2800E2AC66 /* View */,
+			);
+			name = Discovery;
+			path = Class/Discovery;
+			sourceTree = "<group>";
+		};
+		62930BD81BE0FF2800E2AC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62930BF61BE0FFD500E2AC66 /* JYDiscoveryViewController.h */,
+				62930BF71BE0FFD500E2AC66 /* JYDiscoveryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62930BD91BE0FF2800E2AC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62930BDA1BE0FF2800E2AC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62930BDB1BE0FF2800E2AC66 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				62930BDC1BE0FF2800E2AC66 /* Controller */,
+				62930BDD1BE0FF2800E2AC66 /* Model */,
+				62930BDE1BE0FF2800E2AC66 /* View */,
+			);
+			name = Hall;
+			path = Class/Hall;
+			sourceTree = "<group>";
+		};
+		62930BDC1BE0FF2800E2AC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62930BF31BE0FFC400E2AC66 /* JYHallViewController.h */,
+				62930BF41BE0FFC400E2AC66 /* JYHallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62930BDD1BE0FF2800E2AC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62930BDE1BE0FF2800E2AC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62930BDF1BE0FF2800E2AC66 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				62930BE01BE0FF2800E2AC66 /* Controller */,
+				62930BE11BE0FF2800E2AC66 /* Model */,
+				62930BE21BE0FF2800E2AC66 /* View */,
+			);
+			name = Mine;
+			path = Class/Mine;
+			sourceTree = "<group>";
+		};
+		62930BE01BE0FF2800E2AC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62930BF01BE0FFAE00E2AC66 /* JYMineViewController.h */,
+				62930BF11BE0FFAE00E2AC66 /* JYMineViewController.m */,
+				6211FA291BE2326F000E2E65 /* JYConfigViewController.h */,
+				6211FA2A1BE2326F000E2E65 /* JYConfigViewController.m */,
+				6211FA1D1BE22BAB000E2E65 /* JYBaseTableViewController.h */,
+				6211FA1E1BE22BAB000E2E65 /* JYBaseTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62930BE11BE0FF2800E2AC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6211FA201BE22D71000E2E65 /* JYSection.h */,
+				6211FA211BE22D71000E2E65 /* JYSection.m */,
+				6211FA261BE22F9B000E2E65 /* JYSettingModel.h */,
+				6211FA271BE22F9B000E2E65 /* JYSettingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62930BE21BE0FF2800E2AC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6211FA231BE22E49000E2E65 /* JYConfigTableViewCell.h */,
+				6211FA241BE22E49000E2E65 /* JYConfigTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62930BE31BE0FF2800E2AC66 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				62930BE41BE0FF2800E2AC66 /* Controller */,
+				62930BE71BE0FF2800E2AC66 /* Model */,
+				62930BE81BE0FF2800E2AC66 /* View */,
+			);
+			name = Other;
+			path = Class/Other;
+			sourceTree = "<group>";
+		};
+		62930BE41BE0FF2800E2AC66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62930BE51BE0FF2800E2AC66 /* AppDelegate.h */,
+				62930BE61BE0FF2800E2AC66 /* AppDelegate.m */,
+				62930BEA1BE0FF7900E2AC66 /* JYTabBarController.h */,
+				62930BEB1BE0FF7900E2AC66 /* JYTabBarController.m */,
+				62930BED1BE0FF8E00E2AC66 /* JYNavigationController.h */,
+				62930BEE1BE0FF8E00E2AC66 /* JYNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62930BE71BE0FF2800E2AC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62930BE81BE0FF2800E2AC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62930BFF1BE10F2E00E2AC66 /* JYTabBar.h */,
+				62930C001BE10F2E00E2AC66 /* JYTabBar.m */,
+				62930C021BE111F000E2AC66 /* JYTabBarButton.h */,
+				62930C031BE111F000E2AC66 /* JYTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62930C051BE1A46C00E2AC66 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				62930C071BE1A46C00E2AC66 /* MASCompositeConstraint.h */,
+				62930C081BE1A46C00E2AC66 /* MASCompositeConstraint.m */,
+				62930C091BE1A46C00E2AC66 /* MASConstraint+Private.h */,
+				62930C0A1BE1A46C00E2AC66 /* MASConstraint.h */,
+				62930C0B1BE1A46C00E2AC66 /* MASConstraint.m */,
+				62930C0C1BE1A46C00E2AC66 /* MASConstraintMaker.h */,
+				62930C0D1BE1A46C00E2AC66 /* MASConstraintMaker.m */,
+				62930C0E1BE1A46C00E2AC66 /* MASLayoutConstraint.h */,
+				62930C0F1BE1A46C00E2AC66 /* MASLayoutConstraint.m */,
+				62930C101BE1A46C00E2AC66 /* Masonry.h */,
+				62930C111BE1A46C00E2AC66 /* MASUtilities.h */,
+				62930C121BE1A46C00E2AC66 /* MASViewAttribute.h */,
+				62930C131BE1A46C00E2AC66 /* MASViewAttribute.m */,
+				62930C141BE1A46C00E2AC66 /* MASViewConstraint.h */,
+				62930C151BE1A46C00E2AC66 /* MASViewConstraint.m */,
+				62930C161BE1A46C00E2AC66 /* NSArray+MASAdditions.h */,
+				62930C171BE1A46C00E2AC66 /* NSArray+MASAdditions.m */,
+				62930C181BE1A46C00E2AC66 /* NSArray+MASShorthandAdditions.h */,
+				62930C191BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62930C1A1BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				62930C1B1BE1A46C00E2AC66 /* View+MASAdditions.h */,
+				62930C1C1BE1A46C00E2AC66 /* View+MASAdditions.m */,
+				62930C1D1BE1A46C00E2AC66 /* View+MASShorthandAdditions.h */,
+				62930C1E1BE1A46C00E2AC66 /* ViewController+MASAdditions.h */,
+				62930C1F1BE1A46C00E2AC66 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62930B981BE0FCA900E2AC66 /* JYLotteryCustomTabController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62930BC61BE0FCA900E2AC66 /* Build configuration list for PBXNativeTarget "JYLotteryCustomTabController" */;
+			buildPhases = (
+				62930B951BE0FCA900E2AC66 /* Sources */,
+				62930B961BE0FCA900E2AC66 /* Frameworks */,
+				62930B971BE0FCA900E2AC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYLotteryCustomTabController;
+			productName = JYLotteryCustomTabController;
+			productReference = 62930B991BE0FCA900E2AC66 /* JYLotteryCustomTabController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62930BB11BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62930BC91BE0FCA900E2AC66 /* Build configuration list for PBXNativeTarget "JYLotteryCustomTabControllerTests" */;
+			buildPhases = (
+				62930BAE1BE0FCA900E2AC66 /* Sources */,
+				62930BAF1BE0FCA900E2AC66 /* Frameworks */,
+				62930BB01BE0FCA900E2AC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62930BB41BE0FCA900E2AC66 /* PBXTargetDependency */,
+			);
+			name = JYLotteryCustomTabControllerTests;
+			productName = JYLotteryCustomTabControllerTests;
+			productReference = 62930BB21BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62930BBC1BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62930BCC1BE0FCA900E2AC66 /* Build configuration list for PBXNativeTarget "JYLotteryCustomTabControllerUITests" */;
+			buildPhases = (
+				62930BB91BE0FCA900E2AC66 /* Sources */,
+				62930BBA1BE0FCA900E2AC66 /* Frameworks */,
+				62930BBB1BE0FCA900E2AC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62930BBF1BE0FCA900E2AC66 /* PBXTargetDependency */,
+			);
+			name = JYLotteryCustomTabControllerUITests;
+			productName = JYLotteryCustomTabControllerUITests;
+			productReference = 62930BBD1BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62930B911BE0FCA900E2AC66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					62930B981BE0FCA900E2AC66 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					62930BB11BE0FCA900E2AC66 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62930B981BE0FCA900E2AC66;
+					};
+					62930BBC1BE0FCA900E2AC66 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62930B981BE0FCA900E2AC66;
+					};
+				};
+			};
+			buildConfigurationList = 62930B941BE0FCA900E2AC66 /* Build configuration list for PBXProject "JYLotteryCustomTabController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62930B901BE0FCA900E2AC66;
+			productRefGroup = 62930B9A1BE0FCA900E2AC66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62930B981BE0FCA900E2AC66 /* JYLotteryCustomTabController */,
+				62930BB11BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests */,
+				62930BBC1BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62930B971BE0FCA900E2AC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62930BAC1BE0FCA900E2AC66 /* LaunchScreen.storyboard in Resources */,
+				62930BA91BE0FCA900E2AC66 /* Assets.xcassets in Resources */,
+				62930BA71BE0FCA900E2AC66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62930BB01BE0FCA900E2AC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62930BBB1BE0FCA900E2AC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62930B951BE0FCA900E2AC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62930C041BE111F000E2AC66 /* JYTabBarButton.m in Sources */,
+				62930BFE1BE0FFFE00E2AC66 /* JYAwardViewController.m in Sources */,
+				62930BF81BE0FFD500E2AC66 /* JYDiscoveryViewController.m in Sources */,
+				62930BFB1BE0FFEA00E2AC66 /* JYBattleViewController.m in Sources */,
+				6211FA281BE22F9B000E2E65 /* JYSettingModel.m in Sources */,
+				62930C211BE1A46C00E2AC66 /* MASCompositeConstraint.m in Sources */,
+				62930BE91BE0FF2800E2AC66 /* AppDelegate.m in Sources */,
+				6211FA251BE22E49000E2E65 /* JYConfigTableViewCell.m in Sources */,
+				62930C261BE1A46C00E2AC66 /* MASViewConstraint.m in Sources */,
+				62930B9E1BE0FCA900E2AC66 /* main.m in Sources */,
+				62930C291BE1A46C00E2AC66 /* View+MASAdditions.m in Sources */,
+				6211FA2B1BE2326F000E2E65 /* JYConfigViewController.m in Sources */,
+				62930C281BE1A46C00E2AC66 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				62930C241BE1A46C00E2AC66 /* MASLayoutConstraint.m in Sources */,
+				6211FA1F1BE22BAB000E2E65 /* JYBaseTableViewController.m in Sources */,
+				62930C2A1BE1A46C00E2AC66 /* ViewController+MASAdditions.m in Sources */,
+				62930C231BE1A46C00E2AC66 /* MASConstraintMaker.m in Sources */,
+				62930BF51BE0FFC400E2AC66 /* JYHallViewController.m in Sources */,
+				62930BF21BE0FFAE00E2AC66 /* JYMineViewController.m in Sources */,
+				62930BEF1BE0FF8E00E2AC66 /* JYNavigationController.m in Sources */,
+				62930C011BE10F2E00E2AC66 /* JYTabBar.m in Sources */,
+				62930C271BE1A46C00E2AC66 /* NSArray+MASAdditions.m in Sources */,
+				62930C251BE1A46C00E2AC66 /* MASViewAttribute.m in Sources */,
+				6211FA221BE22D71000E2E65 /* JYSection.m in Sources */,
+				62930BEC1BE0FF7900E2AC66 /* JYTabBarController.m in Sources */,
+				62930C221BE1A46C00E2AC66 /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62930BAE1BE0FCA900E2AC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62930BB71BE0FCA900E2AC66 /* JYLotteryCustomTabControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62930BB91BE0FCA900E2AC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62930BC21BE0FCA900E2AC66 /* JYLotteryCustomTabControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62930BB41BE0FCA900E2AC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62930B981BE0FCA900E2AC66 /* JYLotteryCustomTabController */;
+			targetProxy = 62930BB31BE0FCA900E2AC66 /* PBXContainerItemProxy */;
+		};
+		62930BBF1BE0FCA900E2AC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62930B981BE0FCA900E2AC66 /* JYLotteryCustomTabController */;
+			targetProxy = 62930BBE1BE0FCA900E2AC66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62930BA51BE0FCA900E2AC66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62930BA61BE0FCA900E2AC66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62930BAA1BE0FCA900E2AC66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62930BAB1BE0FCA900E2AC66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62930BC41BE0FCA900E2AC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62930BC51BE0FCA900E2AC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62930BC71BE0FCA900E2AC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = JYLotteryCustomTabController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYLotteryCustomTabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62930BC81BE0FCA900E2AC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = JYLotteryCustomTabController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYLotteryCustomTabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62930BCA1BE0FCA900E2AC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYLotteryCustomTabControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYLotteryCustomTabControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYLotteryCustomTabController.app/JYLotteryCustomTabController";
+			};
+			name = Debug;
+		};
+		62930BCB1BE0FCA900E2AC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYLotteryCustomTabControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYLotteryCustomTabControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYLotteryCustomTabController.app/JYLotteryCustomTabController";
+			};
+			name = Release;
+		};
+		62930BCD1BE0FCA900E2AC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYLotteryCustomTabControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYLotteryCustomTabControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYLotteryCustomTabController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62930BCE1BE0FCA900E2AC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYLotteryCustomTabControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYLotteryCustomTabControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYLotteryCustomTabController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62930B941BE0FCA900E2AC66 /* Build configuration list for PBXProject "JYLotteryCustomTabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62930BC41BE0FCA900E2AC66 /* Debug */,
+				62930BC51BE0FCA900E2AC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62930BC61BE0FCA900E2AC66 /* Build configuration list for PBXNativeTarget "JYLotteryCustomTabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62930BC71BE0FCA900E2AC66 /* Debug */,
+				62930BC81BE0FCA900E2AC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62930BC91BE0FCA900E2AC66 /* Build configuration list for PBXNativeTarget "JYLotteryCustomTabControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62930BCA1BE0FCA900E2AC66 /* Debug */,
+				62930BCB1BE0FCA900E2AC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62930BCC1BE0FCA900E2AC66 /* Build configuration list for PBXNativeTarget "JYLotteryCustomTabControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62930BCD1BE0FCA900E2AC66 /* Debug */,
+				62930BCE1BE0FCA900E2AC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62930B911BE0FCA900E2AC66 /* Project object */;
+}
